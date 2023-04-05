@@ -42,15 +42,17 @@
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
 }
 .listItem {
   display: flex;
   align-items: center;
   gap: 5px;
-  margin: 10px;
-  width: 620px;
+  margin: 10px 0;
+  width: 50%;
 }
 .username,
 .email {
